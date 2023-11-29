@@ -45,6 +45,8 @@ p {
     font-size: 20px;
 }
 img {
+    display:flex;
+    justify-content: center;
     width: 25%;
 }
 .header {
@@ -71,4 +73,18 @@ a {
 .navegación_enlace{
     color:var(--primero);
     font-size: 3rem;
+}
+
+/* .container{
+
+}
+
+.imagen_producto{
+
+} */
+
+.card{
+    height: 200px;
+    width: 300px;
+    border: 4px solid var(--blanco);
 }
