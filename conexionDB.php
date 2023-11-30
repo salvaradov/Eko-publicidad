@@ -4,7 +4,7 @@
 
         private $hostname = "localhost";
         private $dbUser = "root";
-        private $dbPassword = "";
+        private $dbPassword = "Chiquitos03*";
         private $dbNombre = "EkoPublicidad";
         private $charset = "utf8";
 

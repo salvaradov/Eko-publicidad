@@ -1,7 +1,7 @@
 <?php
     session_start();
     include("header.html");
-    require 'bd/conexionDB.php';
+    require 'conexionDB.php';
     $db = new Database();
     $con = $db->conectar();
     $sql = $con->prepare("SELECT idProducto, nombre, descripcion, precio, imagen FROM producto");
@@ -43,7 +43,7 @@
                                 <h5 class="card-title"><?php echo $row["nombre"]?></h5>
                                 <p class = "card-text">$ <?php echo $row["precio"]?></p>
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <a href="#" class="btn btn-success"> Agregar</a>
+                                    <a href="#" class="btn btn-success"> Cotizar</a>
                                 </div>
                             </div>
                         </div>
